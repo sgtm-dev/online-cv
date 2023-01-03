@@ -1,221 +1,128 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Suman Gautam
+    tagline: Software Enginner
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    email: gautamsuman2012@gmail.com
+    phone: 07401718433
+    location: London, United Kingdom
+    linkedin: suman-gautam
+    github: https://github.com/sgtm-dev
     pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
       info:
         - idiom: English
-          level: Native
-
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
+        - idiom: Nepali
 
     interests:
-      title: Interests
+      title: Hobbies
       info:
-        - item: Climbing
-          link:
+        - item: Hiking 🥾
+        - item: Travelling ✈️ 🌏
+        - item: Climbing 🧗🏽 
+        - item: Running 🏃🏽‍♂️
+        - item: Badmintion 🏸
 
-        - item: Snowboarding
-          link:
+    career-interests:
+      title: 👨🏽‍💻 Career Interests
+      info:
+        - item: DevOps
+        - item: Technical Leadership
+        - item: Software Architecture
+        - item: Infrastructure as code (IaC)
 
-        - item: Cooking
-          link:
+    certifications:
+      title: 🏅 Certification
+      info:
+        - item: Certified SAFe® 5 Practitioner
+          link: https://www.credly.com/badges/a963a770-a221-43d2-8719-8374c64a5cd4?source=linked_in_profile
+        - item: GCP Cloud Digital Leader
+          link: https://www.credential.net/98408472-64ce-4df2-8960-02b5d9729857
+
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Suman is a software engineer with over 3 years of commercial experience in software development using mostly Java and Java related technologies. 
+      He has worked on global, large-scale systems in financial domain and has experience includes working in all stages of SDLC, from analysis of requirements and design to deployment and maintenance. 
+      He is also able to co-ordinate with multiple teams and adapt according to project needs.
+      Likewise, he is eager to learn new technologies and share his skills and experience with wider community.
 education:
-    title: Education
+    title: 🎓 Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      - degree: BSc Computer Science with Year in Indsutry
+        university: City, University of London
+        time: Sep 2015 - Jun 2019
+      - degree: A-Levels
+        university: The John Roan School
+        time: Sep 2012 - Jun 2015
+skills:
+    title: Tech Skills
+    toolset:
+      - category: Languages, Frameworks & Tools
+        name: Java, Spring, Junit, Mockito, Apache Kafka, Confluent Schema Registry, Cucumber, Spark, Git, Bitbucket, OpenShift, Jenkins, CircleCi, Terraform, IntelliJ, Apache Maven etc.
+      - category: Methodologies & Specifications
+        name: Agile, TDD, BDD, Apache Avro Specfication, AsyncAPI, OpenAPI, REST, EDA etc.
+      - category: Database & Migration Tool
+        name: Oracle, PostgreSQL, H2, MySQL, Flyway etc.
+        
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Consultant Software Engineer
+        time: Mar 2022 - Present
+        company: "Capco a Wipro Company - Client: Global Payments Processor"
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          To replace existing financial reporting systems to use Kafka in Global Payments Processor
+          - Transformation of the batch processing Spark application to transform data acquired from the upstream Oracle database into AVRO object format andto produce downstream feed as Kafka messages.
+          - Implemented contracts using AsyncAPI, including the process to generate AVRO schema using the specifications which was first within the domain. This has improved the process of sharing the message contracts between subscribers and publishers for EDA.
+          - Took full ownership of implementation of replaying failed or unsuccessful messages and republishing them to Kafka Topic.
+          - Implemented and improved existing BDD framework, enabling client and testers to have a better visibility of which features are being tested.
+        technologies: Java, Apache Kafka, Cucumber, Spark, GitHub, Jenkins,AsyncAPI, Schema Registry, Oracle
+      
+      - role: Consultant Software Engineer
+        time: Oct 2021 - Jan 2022
+        company: "Capco a Wipro Company - Client: Tier 1 Investment Bank"
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          To create a POC for GraphQL service and document GraphQL standards for others to adopt in Tier 1 Investment Bank
+          - Implemented graph service POC to retrieve customer data from different System APIs which will be later used to facilitate Open Banking, Account Information and Payment Initiation use cases.
+          - Collaborated with other developers and stakeholders to document GraphQL standards and best practices.
+        technologies: GraphQL, Kotlin, GraphQL Java Kickstart & dgs-codegen by Netflix
+
+      - role: Associate Software Engineer
+        time: Oct 2019 - Sep 2021
+        company: "Capco a Wipro Company - Client: Tier 1 Investment Bank"
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+          To replace existing Oracle based system and MS Access application into a modern micro-service in Tier 1 Investment Bank
+          - Developed distributed configuration system which is used by more than 20 microservice to manage external properties for application across all environments.
+          - Design and Implemented CI/CD pipeline both for backend and frontend applications using Jenkins, which improved the release cycle from 6 weeks to 2 weeks.
+          - Implemented microservices to replace existing Oracleprocesses which has resulted in business reporting process from bi-weekly to daily.
+          - Integrated BDD testing using cucumber for the microservices
+        technologies: Java 8 & 11, Spring, Oracle, OpenShift (on top of Azure), Jenkins & JPA
+     
+      - role: Associate Software Engineer
+        time: Jul 2019 - Oct 2019
+        company: Capco a Wipro Company
+        details: |
+          API distribution platform enabling third-party APS to be exposed to financial services companies.
+            - Involved in design and implementation of Serverless function
+            - Involved in deployment of microservices and front-end application in GKE (Google KubernetesEngine) using CircleCI, K8s and Skaffold
+        technologies: Go, Java, Spring, CircleCI, Google Cloud, Skaffold
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - role: Technical Consultant
+        time: 2017 - Jul 2018
+        company: HPE Software /Micro Focus
+        details: |
+          - Taking technical responsibility for all stages and/or iterations in Software Development and implementation process.
+          - Providing method specific technical advice and guidance to project stakeholders.
+          - Designing, documenting program and scripts from agreed specification.
+          - Defining test conditions for given requirements and executing test plan in accordance with-in project test plan.
+        technologies: C#, Micro Focus Content Manager, Microsoft SQL Server
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
