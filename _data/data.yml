@@ -51,9 +51,9 @@ career-profile:
     title: Career Profile
     summary: |
       Suman is a software engineer with over 3 years of commercial experience in software development using mostly Java and Java related technologies. 
-      He has worked on global, large-scale systems in financial domain and has experience includes working in all stages of SDLC, from analysis of requirements and design to deployment and maintenance. 
+      He has worked on global, large-scale systems in financial domain and has experience working in all stages of SDLC, from analysis of requirements and design to deployment and maintenance. 
       He is also able to co-ordinate with multiple teams and adapt according to project needs.
-      Likewise, he is eager to learn new technologies and share his skills and experience with wider community.
+      Additionally, he is eager to learn new technologies and share his skills and experience with wider community.
 education:
     title: 🎓 Education
     info:
@@ -113,7 +113,7 @@ experiences:
         details: |
           API distribution platform enabling third-party APS to be exposed to financial services companies.
             - Involved in design and implementation of Serverless function
-            - Involved in deployment of microservices and front-end application in GKE (Google KubernetesEngine) using CircleCI, K8s and Skaffold
+            - Involved in deployment of microservices and front-end application in GKE (Google Kubernetes Engine) using CircleCI, K8s and Skaffold
         technologies: Go, Java, Spring, CircleCI, Google Cloud, Skaffold
 
       - role: Technical Consultant
