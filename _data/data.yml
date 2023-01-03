@@ -81,7 +81,7 @@ experiences:
         company: "Capco a Wipro Company - Client: Global Payments Processor"
         details: |
           To replace existing financial reporting systems to use Kafka in Global Payments Processor
-          - Transformation of the batch processing Spark application to transform data acquired from the upstream Oracle database into AVRO object format andto produce downstream feed as Kafka messages.
+          - Transformation of the batch processing Spark application to transform data acquired from the upstream Oracle database into AVRO object format and to produce downstream feed as Kafka messages.
           - Implemented contracts using AsyncAPI, including the process to generate AVRO schema using the specifications which was first within the domain. This has improved the process of sharing the message contracts between subscribers and publishers for EDA.
           - Took full ownership of implementation of replaying failed or unsuccessful messages and republishing them to Kafka Topic.
           - Implemented and improved existing BDD framework, enabling client and testers to have a better visibility of which features are being tested.
